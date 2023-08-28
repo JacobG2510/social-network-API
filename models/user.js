@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    match: [/.+@.+\..+/, 'Please enter a valid email address']
+    match: [/.+@.+\..+/, 'blastking2510@gmail.com']
   },
   thoughts: [{
     type: mongoose.Schema.Types.ObjectId,
